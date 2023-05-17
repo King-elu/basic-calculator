@@ -1,0 +1,55 @@
+.calc{
+    border: 2px solid blue;
+    width: 250px;
+    background-color: burlywood;
+    border: 2px solid burlywood;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px  10px black;
+
+}
+.display{
+    display: grid;
+    place-content: center;
+}
+ .input{
+    margin-top: 10px;
+    width: 230px;
+    border-radius: 10px;
+    height: 3rem;
+    border: 2px solid white;
+    box-shadow: 2px 2px 10px black;
+    
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px black;
+}
+.buttons{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+.clear{
+    background-color: red;
+    border: 2px solid red;
+}
+
+.number{
+    background-color: white;
+    border: 2px solid white;
+}
+ #operation{
+    background-color: teal;
+    border: 2px solid teal;
+
+
+}
+.equal{
+    background-color: forestgreen;
+    border: 2px solid forestgreen;
+}
